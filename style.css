@@ -3,7 +3,15 @@
 html, body {
   margin: 0;
   padding: 0;
+}
+.content-section{
+  min-height: 100vh; /* viewport unit - height */
+  width: 100vw;      /* viewport unit - width */
   background-color: hsl(212, 45%, 89%);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .background-rect{
@@ -37,12 +45,4 @@ body p{
   font-family: Outfit, sans-serif;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
-}
-
-.center-page{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -225px;
-  margin-left: -150px;
 }
